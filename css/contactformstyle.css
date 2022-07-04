@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:wght@200&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+    /* background-color: goldenrod; */
+    width: 90vw;
+    font-family: "Gentium Book Plus", serif;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .container {
+    display: flex;
+  }
+.sidebar {
+  background-color: silver;
+  width: 160px;
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Ubuntu", sans-serif;
+  height: 150vh;
+  text-align: left;
+  padding: 15px;
+  /* font-size: 3.5vmin; */
+}
+.sidebar nav {
+  padding-left: none;
+  /* font-size: 3vmin */
+}
+.sidebar nav li {
+  list-style: none;
+  /* font-size: vmin */
+  padding: 30px 5px;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+/* Upto here is the min required css! */
+.contactform{
+    font-family: "Gentium Book Plus", serif;
+    font-family: "Ubuntu", sans-serif; 
+    padding: 0 50px;
+    padding-top: 50px;
+    
+
+
+
+}
+.contactform h1{
+
+    font-family: "Source Code Pro", monospace;
+    padding:12px 0;
+    
+
+}
+.contactform form div{
+    padding:10px 0;
+    display:flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width:26vw;
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding:3px;
+
+}
+#emailHelp{
+    color:midnightblue;
+    font-size: 11px;
+    margin:0 2px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width:24px;
+    margin:3px 0;
+}
+.btn-primary{
+    border-radius: 7px;
+    color: black;
+    background-color: antiquewhite;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    padding: 9px 14px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.btn-primary:hover{
+    background-color: black;
+    color: antiquewhite;
+   
+
+}
+footer{
+  background-color: aquamarine;
+  text-align: center;
+  position: fixed; 
+  bottom: 0; 
+  width: 100% 
+
+}

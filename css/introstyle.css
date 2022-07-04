@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:wght@200&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+    /* background-color: goldenrod; */
+    width: 90vw;
+    font-family: "Gentium Book Plus", serif;
+    font-family: "Ubuntu", sans-serif;
+    
+  }
+  .container {
+    display: flex;
+  }
+.sidebar {
+  background-color: silver;
+  width: 160px;
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Ubuntu", sans-serif;
+  height: 150vh;
+  text-align: left;
+  padding: 15px;
+  /* font-size: 3.5vmin; */
+}
+.sidebar nav {
+  padding-left: none;
+  /* font-size: 3vmin */
+}
+.sidebar nav li {
+  list-style: none;
+  /* font-size: vmin */
+  padding: 30px 5px;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+/* .infocontainer {
+    /* background-color: slategray; */
+    /* height: 65vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+  } */ */
+  /* .devpic > img {
+    
+    height: 65vh;
+  } */
+  /* .devinfo { */
+    /* display:flex;
+      justify-content:center;
+      flex-direction:column;
+      overflow: hidden;
+      margin-left: 20px; */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    
+  } */
+  .intro{
+    margin:12px;
+  }
+  .intro h2{
+   
+    font-family: "Gentium Book Plus", serif;
+    margin: 12px;
+    
+
+    
+
+  }
+  .intro p{
+    font-family: "Source Code Pro", monospace;
+    margin: 12px;
+    font-weight: 900;
+
+  }
+  .intro div{
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+  }
+  .skillcontainer{
+   padding: 12px;
+  }
+  .skill{
+    width:100px;
+    height:20px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+    /* background-color: blueviolet; */
+
+  }
+  .fifty{
+    width:50px;
+    height:20px;
+    background-color: blueviolet;
+  }
+  .sevfive{
+    width:75px;
+    height:20px;
+    background-color: blueviolet;
+  }
+  .twenfiv{
+    width:25px;
+    height:20px;
+    background-color: blueviolet;
+  }
+  .tt{
+    width:33px;
+    height:20px;
+    background-color: blueviolet;
+  }
+  footer{
+    background-color: aquamarine;
+    text-align: center;
+    position: fixed; 
+    bottom: 0; 
+    width: 100% 
+  
+  }

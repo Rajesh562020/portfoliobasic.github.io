@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:wght@200&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: silver;
+  /* width: 160px; */
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Ubuntu", sans-serif;
+  height: 150vh;
+  text-align: left;
+  padding: 15px;
+  /* font-size: 3.5vmin; */
+}
+.sidebar nav {
+  padding-left: none;
+  /* font-size: 3vmin */
+}
+.sidebar nav li {
+  list-style: none;
+  /* font-size: vmin */
+  padding: 30px 5px;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: goldenrod; */
+  width: 90vw;
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  display: flex;
+}
+.infocontainer {
+  /* background-color: slategray; */
+  height: 65vh;
+  width: 80vw;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devpic > img {
+  /* width:30vw; */
+  height: 65vh;
+}
+.devinfo {
+  /* display:flex;
+    justify-content:center;
+    flex-direction:column;
+    overflow: hidden;
+    margin-left: 20px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+.hello {
+  font-size: 15px;
+  font-weight: bold;
+  /* font-size: 2vmin; */
+}
+.name {
+  font-size: 25px;
+  font-family: "Gentium Book Plus", serif;
+  font-weight: bold;
+  /* font-size: 5vmin; */
+}
+.about {
+  font-size: 14px;
+  font-weight: bold;
+  /* font-size: 3vmin; */
+}
+.moreabout {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 23px;
+}
+
+.buttons {
+  /* text-align: center;
+    width: auto; */
+  margin-top: 34px;
+}
+.buttons button {
+  border-radius: 7px;
+  color: black;
+  background-color: antiquewhite;
+  font-size: 12px;
+  border: none;
+  font-weight: bold;
+  padding: 9px 14px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+/* .sidebargo{
+    transform: translate(-443px,0px);
+    position:absolute;
+} */
+/* .hamburger{
+position:absolute;
+cursor: pointer;
+top: 10px;
+left: 2px;
+
+} */
+/* 
+ .cross{
+    margin-left: 60px;
+ } */
+/* @media (max-width: 1000px) {  */
+   /* *{
+    background-color: none;
+   } */
+
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position:absolute;
+    }
+} */
+footer{
+  background-color: aquamarine;
+  text-align: center;
+  position: fixed; 
+  bottom: 0; 
+  width: 100% 
+
+}
+
